@@ -10,7 +10,16 @@ let QuoteBoxComp = props => {
         <button id="new-quote" onClick={props.clickHandler}>
           New Quote
         </button>
-        <a id="tweet-quote" href="twitter.com/intent/tweet">
+        <a
+          id="tweet-quote"
+          target="_blank"
+          href={
+            "https://twitter.com/intent/tweet?text=" +
+            props.quote +
+            " " +
+            props.author
+          }
+        >
           Tweet Quote
         </a>
       </div>
