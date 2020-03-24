@@ -1,0 +1,44 @@
+/* Setup */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Roboto;
+}
+
+html,
+body {
+  height: 100%;
+  background-image: url("../../images/mesh1.jpg");
+  background-size: cover;
+}
+
+header {
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ff1e8f;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: wheat;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 10px;
+  background-color: #ff1e8f;
+  text-align: right;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: wheat;
+}
