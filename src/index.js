@@ -3,7 +3,9 @@
 function App() {
   return (
     <div>
-      <HeaderComp text="FCC: Front End Libraries - Project 1, Project Name" />
+      <HeaderComp text="FCC: Front End Libraries - Project 1, Random Quote Machine" />
+
+      <QuoteController />
 
       <FooterComp />
     </div>
