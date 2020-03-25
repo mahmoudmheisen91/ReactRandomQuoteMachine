@@ -27,6 +27,17 @@ let QuoteBoxComp = props => {
   );
 };
 
+QuoteBoxComp.defaultProps = {
+  quote: "This is a Quote",
+  author: "Here goes Author"
+};
+
+QuoteBoxComp.propTypes = {
+  quote: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+  clickHandler: PropTypes.func.isRequired
+};
+
 class QuoteController extends React.Component {
   constructor(props) {
     super(props);
